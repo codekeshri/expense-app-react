@@ -8,6 +8,8 @@ import ExpenseForm from "./ExpenseForm";
 let count = 0;
 const Expense = () => {
   let [title, setTitle] = useState("ok");
+
+  //checking the clickHandler function
   let clickHandler = () => {
     setTitle("clicked " + ++count);
   };
